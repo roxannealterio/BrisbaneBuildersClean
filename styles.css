@@ -1,4 +1,4 @@
-/* Brisbane Builders Cleans — black & gold */
+/* Brisbane Builders Clean — black & gold */
 :root{
   --gold:#F2B233;
   --gold-deep:#D89A1E;
@@ -320,3 +320,23 @@ figure figcaption{ font-family:var(--sans); }
 
 /* keep photos in proportion when width/height attributes are set */
 .split-media img{height:auto;}
+
+/* Privacy & Terms pages */
+.legal-section{ padding:56px 0 80px; }
+.legal > *{ max-width:760px; }
+.legal .updated{ display:inline-block; font-size:.8rem; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); border-left:3px solid var(--gold); padding-left:10px; margin-bottom:22px; }
+.legal h2{ font-size:1.3rem; text-transform:uppercase; letter-spacing:.02em; margin:38px 0 12px; padding-top:22px; border-top:1px solid var(--line); }
+.legal p, .legal li{ line-height:1.7; }
+.legal p{ margin-bottom:14px; }
+.legal ul{ padding-left:20px; margin:0 0 16px; }
+.legal li{ margin-bottom:6px; }
+@media (max-width:760px){
+  .legal-hero{ padding:40px 0 36px; }
+  .legal-section{ padding:28px 0 56px; }
+  .legal{ font-size:.97rem; }
+  .legal h2{ font-size:1.1rem; margin-top:28px; padding-top:18px; }
+}
+
+/* bigger tap targets on phones */
+.svc-link{ display:inline-flex; align-items:center; gap:6px; padding:10px 0; }
+.foot-contact a{ display:inline-block; padding:6px 0; }

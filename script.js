@@ -1,4 +1,4 @@
-/* Brisbane Builders Cleans */
+/* Brisbane Builders Clean */
 var BBC_CONFIG = {
   formspree: "https://formspree.io/f/xnjkvdoo",   // <-- your Formspree endpoint
   email: "info@brisbanebuildersclean.com.au"
@@ -45,7 +45,7 @@ var BBC_CONFIG = {
       }).catch(function () {
         var lines = [];
         for (var k in data) { lines.push(k + ': ' + data[k]); }
-        var body = 'Hi Brisbane Builders Cleans,\n\nI\'d like a quote:\n\n' + lines.join('\n') + '\n\nThanks!';
+        var body = 'Hi Brisbane Builders Clean,\n\nI\'d like a quote:\n\n' + lines.join('\n') + '\n\nThanks!';
         window.location.href = 'mailto:' + BBC_CONFIG.email +
           '?subject=' + encodeURIComponent('Quote request') + '&body=' + encodeURIComponent(body);
         if (btn) { btn.disabled = false; btn.innerHTML = label; }
