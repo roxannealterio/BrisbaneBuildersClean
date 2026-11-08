@@ -340,3 +340,8 @@ figure figcaption{ font-family:var(--sans); }
 /* bigger tap targets on phones */
 .svc-link{ display:inline-flex; align-items:center; gap:6px; padding:10px 0; }
 .foot-contact a{ display:inline-block; padding:6px 0; }
+
+/* External cleans & house washing */
+.ext-grid{ display:grid; grid-template-columns:1fr 1fr; gap:22px 48px; margin-top:28px; }
+.ext-grid h3{ font-size:1.15rem; text-transform:uppercase; letter-spacing:.02em; padding-top:16px; border-top:3px solid var(--gold); }
+@media (max-width:760px){ .ext-grid{ grid-template-columns:1fr; } }
