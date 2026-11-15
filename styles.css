@@ -345,3 +345,14 @@ figure figcaption{ font-family:var(--sans); }
 .ext-grid{ display:grid; grid-template-columns:1fr 1fr; gap:22px 48px; margin-top:28px; }
 .ext-grid h3{ font-size:1.15rem; text-transform:uppercase; letter-spacing:.02em; padding-top:16px; border-top:3px solid var(--gold); }
 @media (max-width:760px){ .ext-grid{ grid-template-columns:1fr; } }
+
+/* suburb links in Where we work */
+.tags a{ display:block; flex:0 1 calc(25% - 8px); min-width:150px; margin:0 8px 8px 0; box-sizing:border-box; border:1px solid var(--line); padding:12px 8px; font-size:.86rem; color:var(--body); background:#fff; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-decoration:none; transition:border-color .2s, color .2s; }
+.tags a:hover, .tags a:focus-visible{ border-color:var(--gold); color:var(--ink, #111); }
+@media (max-width:820px){ .tags a{ flex:0 1 calc(33.33% - 8px); min-width:0; } }
+@media (max-width:560px){ .tags a{ flex:0 1 calc(50% - 8px); min-width:0; font-size:.78rem; padding:11px 4px; } }
+#areas .tags{ justify-content:center; }
+
+/* links inside page text */
+main p a:not(.btn), main .why-list a{ color:#8A5A00; font-weight:600; text-decoration:underline; text-decoration-color:#F2B233; text-underline-offset:3px; }
+main p a:not(.btn):hover, main .why-list a:hover{ color:#111; }
