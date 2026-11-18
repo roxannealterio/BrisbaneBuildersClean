@@ -52,17 +52,17 @@
 @media(max-width:760px){.sticky-call{transform:translateY(110%);transition:transform .3s ease;will-change:transform;}.sticky-call.visible{transform:translateY(0);}}
 /* handover ready gallery (real job photos) */
 .hr-wrap{position:relative}
-.hr-track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scrollbar-width:none;padding-bottom:4px}
+.hr-track{display:flex;gap:18px;max-width:960px;margin:0 auto;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scroll-behavior:smooth;scrollbar-width:none;padding-bottom:4px}
 .hr-track::-webkit-scrollbar{display:none}
-.hr-track figure{flex:0 0 calc((100% - 36px)/3);scroll-snap-align:start;margin:0}
-.hr-track img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;display:block}
-.hr-track figcaption{font-size:.8rem;font-weight:700;color:#111;letter-spacing:.08em;text-transform:uppercase;padding-top:12px}
+.hr-track figure{flex:0 0 calc((100% - 54px)/4);scroll-snap-align:start;margin:0}
+.hr-track img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;display:block}
+.hr-track figcaption{font-size:.8rem;font-weight:700;color:#111;letter-spacing:.08em;text-transform:uppercase;padding-top:10px}
 .hr-nav{display:flex;justify-content:center;align-items:center;gap:12px;margin-top:22px}
 .hr-nav button{width:48px;height:48px;border:1px solid #E6E6E6;background:#fff;color:#111;cursor:pointer;font-size:1.2rem;transition:.2s}
 .hr-nav button:hover{background:#F2B233;border-color:#F2B233}
 .hr-nav button:disabled{opacity:.35;cursor:default;background:#fff;border-color:#E6E6E6}
 .hr-hint{text-align:center;color:#7A7A7A;font-size:.8rem;margin-top:10px}
-@media(max-width:760px){.hr-track figure{flex-basis:80%}.hr-track{gap:12px}}
+@media(max-width:760px){.hr-track figure{flex-basis:calc((100% - 10px)/2.15)}.hr-track{gap:10px}.hr-track figcaption{font-size:.68rem;padding-top:8px}.hr-nav{display:none}.hr-hint{margin-top:12px}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://brisbanebuildersclean.com.au/#business","name":"Brisbane Builders Clean","image":"https://brisbanebuildersclean.com.au/og-bathroom.jpg","url":"https://brisbanebuildersclean.com.au/","telephone":"+61419382733","email":"info@brisbanebuildersclean.com.au","priceRange":"$$","description":"Post-construction and builders cleans across Brisbane. Rough, sparkle and final detail cleans for new builds, renovations and developments. Fully insured, fixed-price.","address":{"@type":"PostalAddress","addressLocality":"Brisbane","addressRegion":"QLD","addressCountry":"AU"},"geo":{"@type":"GeoCoordinates","latitude":-27.4698,"longitude":153.0251},"areaServed":[{"@type":"Place","name":"South Brisbane"},{"@type":"Place","name":"West End"},{"@type":"Place","name":"Woolloongabba"},{"@type":"Place","name":"Dutton Park"},{"@type":"Place","name":"Annerley"},{"@type":"Place","name":"Moorooka"},{"@type":"Place","name":"Greenslopes"},{"@type":"Place","name":"Stones Corner"},{"@type":"Place","name":"Coorparoo"},{"@type":"Place","name":"Camp Hill"},{"@type":"Place","name":"Holland Park"},{"@type":"Place","name":"Holland Park West"},{"@type":"Place","name":"Tarragindi"},{"@type":"Place","name":"Mount Gravatt"},{"@type":"Place","name":"Carindale"},{"@type":"Place","name":"Sunnybank"},{"@type":"Place","name":"Wynnum"},{"@type":"Place","name":"Manly"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"17:00"}],"sameAs":["https://www.instagram.com/brisbanebuildersclean"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Builders cleaning services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Builder Cleans","description":"Full post-construction cleans for new builds."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Renovation Cleans","description":"Detailed cleaning for renovations and extensions."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Rough & Sparkle Cleans","description":"Staged cleans during works and before handover."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Pre-Handover Cleans","description":"Inspection-ready final detail cleans."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Pre-Listing Cleans","description":"Presentation cleans so a property photographs and shows well before the sales campaign."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Display & Open Home Cleans","description":"Ongoing presentation cleaning for display homes and open inspections."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"External & Window Cleans","description":"Outside windows, render and concrete splatter, driveways and paths cleaned after construction."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"House Washing","description":"House walls, driveways, decks and outdoor areas washed, ideal before listing a property."}}]}}</script>
 
@@ -162,7 +162,7 @@
 <section class="section alt" id="work">
 <div class="wrap">
 <header class="section-head center"><p class="eyebrow">Recent work</p><h2 class="section-title">Handover ready</h2>
-<p class="section-intro">After shots from one of our recent handovers. Kitchen, bathrooms, bedrooms and windows, all detailed.</p></header>
+<p class="section-intro">A recent handover: kitchen, bathrooms, bedrooms and windows, all detailed.</p></header>
 <div class="hr-wrap"><div class="hr-track" tabindex="0" aria-label="Recent work photos">
 <figure><img src="images/work-kitchen.jpg" width="1050" height="1400" alt="Clean white kitchen with stone benchtops" loading="lazy"><figcaption>Kitchen</figcaption></figure>
 <figure><img src="images/work-vanity.jpg" width="993" height="1400" alt="Double vanity with vessel basins" loading="lazy"><figcaption>Bathroom vanity</figcaption></figure>
