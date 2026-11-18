@@ -50,6 +50,12 @@
 @media(max-width:600px){.hero-xl{min-height:94vh;padding:124px 18px 92px;}.hero-xl .hero-xl-btns{flex-direction:column;}.hero-xl .hero-xl-cta,.hero-xl .hero-xl-phone{width:auto;justify-content:center;}}
 /* sticky call/quote bar: stays off-screen until the hero is scrolled past */
 @media(max-width:760px){.sticky-call{transform:translateY(110%);transition:transform .3s ease;will-change:transform;}.sticky-call.visible{transform:translateY(0);}}
+/* handover ready gallery (real job photos) */
+.hr-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.hr-grid figure{margin:0}
+.hr-grid img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;display:block}
+.hr-grid figcaption{font-size:.8rem;font-weight:700;color:#111;letter-spacing:.08em;text-transform:uppercase;padding-top:12px}
+@media(max-width:760px){.hr-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://brisbanebuildersclean.com.au/#business","name":"Brisbane Builders Clean","image":"https://brisbanebuildersclean.com.au/og-bathroom.jpg","url":"https://brisbanebuildersclean.com.au/","telephone":"+61419382733","email":"info@brisbanebuildersclean.com.au","priceRange":"$$","description":"Post-construction and builders cleans across Brisbane. Rough, sparkle and final detail cleans for new builds, renovations and developments. Fully insured, fixed-price.","address":{"@type":"PostalAddress","addressLocality":"Brisbane","addressRegion":"QLD","addressCountry":"AU"},"geo":{"@type":"GeoCoordinates","latitude":-27.4698,"longitude":153.0251},"areaServed":[{"@type":"Place","name":"South Brisbane"},{"@type":"Place","name":"West End"},{"@type":"Place","name":"Woolloongabba"},{"@type":"Place","name":"Dutton Park"},{"@type":"Place","name":"Annerley"},{"@type":"Place","name":"Moorooka"},{"@type":"Place","name":"Greenslopes"},{"@type":"Place","name":"Stones Corner"},{"@type":"Place","name":"Coorparoo"},{"@type":"Place","name":"Camp Hill"},{"@type":"Place","name":"Holland Park"},{"@type":"Place","name":"Holland Park West"},{"@type":"Place","name":"Tarragindi"},{"@type":"Place","name":"Mount Gravatt"},{"@type":"Place","name":"Carindale"},{"@type":"Place","name":"Sunnybank"},{"@type":"Place","name":"Wynnum"},{"@type":"Place","name":"Manly"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"17:00"}],"sameAs":["https://www.instagram.com/brisbanebuildersclean"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Builders cleaning services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Builder Cleans","description":"Full post-construction cleans for new builds."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Renovation Cleans","description":"Detailed cleaning for renovations and extensions."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Rough & Sparkle Cleans","description":"Staged cleans during works and before handover."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Pre-Handover Cleans","description":"Inspection-ready final detail cleans."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Pre-Listing Cleans","description":"Presentation cleans so a property photographs and shows well before the sales campaign."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Display & Open Home Cleans","description":"Ongoing presentation cleaning for display homes and open inspections."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"External & Window Cleans","description":"Outside windows, render and concrete splatter, driveways and paths cleaned after construction."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"House Washing","description":"House walls, driveways, decks and outdoor areas washed, ideal before listing a property."}}]}}</script>
 
@@ -146,6 +152,19 @@
 </section>
 
 
+<section class="section alt" id="work">
+<div class="wrap">
+<header class="section-head center"><p class="eyebrow">Recent work</p><h2 class="section-title">Handover ready</h2>
+<p class="section-intro">Real after shots from one of our recent Brisbane handovers. Kitchen, bathroom, bedrooms and windows, all detailed.</p></header>
+<div class="hr-grid">
+<figure><img src="images/work-kitchen.jpg" width="893" height="1200" alt="Clean white kitchen with island bench" loading="lazy"><figcaption>Kitchen</figcaption></figure>
+<figure><img src="images/work-bathroom.jpg" width="832" height="1200" alt="Clean bathroom with glass shower" loading="lazy"><figcaption>Bathroom</figcaption></figure>
+<figure><img src="images/work-bedroom.jpg" width="841" height="1200" alt="Clean empty bedroom with carpet" loading="lazy"><figcaption>Bedroom</figcaption></figure>
+<figure><img src="images/work-windows.jpg" width="1200" height="907" alt="Bedroom windows and tracks after cleaning" loading="lazy"><figcaption>Windows &amp; tracks</figcaption></figure>
+</div>
+<div style="text-align:center;margin-top:38px;"><a class="btn btn-gold" href="quote.html">Get a free quote <span class="arr">→</span></a></div>
+</div>
+</section>
 <section class="section" id="areas">
   <div class="wrap">
     <header class="section-head center"><p class="eyebrow">Service areas</p><h2 class="section-title">Where we work</h2>
