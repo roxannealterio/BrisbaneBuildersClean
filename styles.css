@@ -209,7 +209,7 @@ figure figcaption{ font-family:var(--sans); }
 .trustbar-inner .tb-item{ flex:1 1 0; min-width:0; }
 
 .svc-grid{ display:flex; flex-wrap:wrap; gap:22px; }
-.svc-grid > *{ flex:1 1 21%; min-width:200px; }
+.svc-grid > *{ flex:1 1 30%; min-width:220px; }
 
 .split{ display:flex; flex-wrap:wrap; align-items:center; gap:56px; }
 .split > *{ flex:1 1 380px; min-width:300px; }
