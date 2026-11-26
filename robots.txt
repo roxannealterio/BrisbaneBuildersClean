@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://brisbanebuildersclean.com.au/sitemap.xml
+
+Disallow: /ads/
